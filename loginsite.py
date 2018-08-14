@@ -21,9 +21,6 @@ try:
     driver.find_element_by_id('nativeRepositoryPluginDojo_IMRLayout_0_LoginPane_XCusername2').send_keys("user2")
     driver.find_element_by_id('nativeRepositoryPluginDojo_IMRLayout_0_LoginPane_password').send_keys("password")
     driver.find_element_by_id('nativeRepositoryPluginDojo_IMRLayout_0_LoginPane_password').send_keys(Keys.RETURN)
-    # accountid.send_keys("IND59E")
-    # username.send_keys("LPCI")
-    # password.send_keys("Password@02")
 
 except TimeoutException:
     print "Loading took too much time!"
